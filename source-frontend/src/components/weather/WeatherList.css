@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+   
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 24px;
+   
+   
+    padding-left: 0;
+}
+   
+   
+.list__item {
+    list-style: none;
+}
+
+.btn__link {
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+
+    border-radius: 25px;
+   
+   
+    background-color: #e9edc9;
+}
+   
+   
+.btn__link_active {
+    background-color: #d4a373;
+}
+   
+   
+.btn__link:hover {
+    background-color: #fefae0;
+}
