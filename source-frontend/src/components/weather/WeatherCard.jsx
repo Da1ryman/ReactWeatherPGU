@@ -8,10 +8,10 @@ const WeatherCard = (props) => {
 
     useEffect(() => {
         const apiKey = process.env.REACT_APP_API_WEATHER;
-
+        
         if (!props.city) return;
         
-        axios.get(`${apiKey}city-weather?cityName=${props.city}`).then(response => {
+        axios.get(`${apiKey}weather-by-city?cityName=${props.city}`).then(response => {
             setWeather(response.data)
             console.log(response)
         }
